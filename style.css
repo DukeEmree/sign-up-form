@@ -1,0 +1,97 @@
+@font-face {
+    font-family:Norse-Bold ;
+    src: url(resources/Norse-Bold.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    font-family: roboto;
+}
+#container{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    
+}
+#sol{
+    background-image: url('resources/halie-west-25xggax4bSA-unsplash.jpg');
+    flex-grow: 3;
+    background-size: 100% 100%;
+    
+}
+
+#logo-text{
+    font-family: Norse-Bold;
+    font-size: 75px;
+    color: white;
+}
+#logo{
+    height: 200px;
+}
+.div-left{
+    margin-top: 20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+    background-color: rgba(3,3,3,0.5);
+
+}
+#sag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(238, 231, 231);
+    flex-grow: 4;
+    padding: 20px;
+    
+    width:100px ;
+    height: 100wh;
+
+}
+#form-div{
+    display: grid;
+    grid-template-columns: auto auto ;
+    border: 1px black solid;
+    background-color: #fff;
+}
+.input-div{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-class{
+    padding: 5px;
+    width: 50%;
+}
+.create-button{
+    background-color:  #596D48;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 40px;
+}
+#sign-in{
+    margin-left: 40px;
+}
+input:hover{
+    border: 1.2px blue solid;
+}
+input:active{
+    border: 1.2px #596D48 solid;
+}
+a ,a:visited{
+    text-decoration: none;
+    color: #596D48;
+}
