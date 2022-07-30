@@ -95,3 +95,6 @@ a ,a:visited{
     text-decoration: none;
     color: #596D48;
 }
+label{
+    letter-spacing: 3px;
+}
